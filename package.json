@@ -1,0 +1,37 @@
+{
+  "name": "cypress-env-plugin",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Andrew Durber",
+  "main": "dist/index.js",
+  "module": "dist/cypress-env-plugin.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "url": "git://github.com/aidurber/cypress-env-plugin.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "semantic-release": "semantic-release"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^24.0.23",
+    "dotenv": "^8.2.0",
+    "husky": "^3.1.0",
+    "tsdx": "^0.11.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2",
+    "pretty-quick": "^2.0.0",
+    "semantic-release": "^15.13.27"
+  }
+}
